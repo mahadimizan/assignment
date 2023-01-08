@@ -145,6 +145,10 @@
     color: gray;
 }
 
+.text-color-third {
+    color: #FD6E0A;
+}
+
 .allin-item-right {
     align-items: right;
 }
@@ -211,7 +215,7 @@
 }
 
 .button-secondary {
-    color: #444;
+    color: #FD6E0A;
     height: 64px;
     border: 0;
     padding: 18px 36px;
@@ -220,7 +224,7 @@
     font-size: 20px;
     line-height: 27px;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .bg-red {
@@ -284,9 +288,10 @@
 
 
 .cover {
-    background-image: url("../styles/images/watch.png");
+    background-image: url("../styles/images/watch.png"), url(./images/gradient2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: screen;
 
     border-radius: 20px;
 }
